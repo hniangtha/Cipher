@@ -17,6 +17,7 @@ public class Cipher {
 
         if (num1 > 19) {
             System.out.println("Please read directions and try again!"); // Output user input
+            scan.close();
             System.exit(0); // If the user enter a number greater than 19,the program will terminate
         }
 
@@ -25,6 +26,7 @@ public class Cipher {
 
         if (num2 > 19) {
             System.out.println("Please read directions and try again!");
+            scan.close();
             System.exit(0);
         }
 
@@ -33,6 +35,7 @@ public class Cipher {
 
         if (num3 > 19) {
             System.out.println("Please read directions and try again!");
+            scan.close();
             System.exit(0);
         }
 
@@ -41,6 +44,7 @@ public class Cipher {
 
         if (num4 > 19) {
             System.out.println("Please read directions and try again!");
+            scan.close();
             System.exit(0);
         }
 
@@ -49,6 +53,7 @@ public class Cipher {
 
         if (num5 > 19) {
             System.out.println("Please read directions and try again!");
+            scan.close();
             System.exit(0);
         }
 
@@ -70,7 +75,7 @@ public class Cipher {
 
         /* recombine the number and Prints the encoded number */
         System.out.println("Your encoded number " + ones + tens);
-
+        scan.close();
     }
 }
 
